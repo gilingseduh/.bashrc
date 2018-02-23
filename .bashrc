@@ -26,3 +26,11 @@ alias gha='git hist --all'
 alias gpso='git push -u origin'
 alias gps='git push -u'
 alias gpl='git pull -u'
+
+#
+# references
+# 
+# https://gist.github.com/johnpolacek/69604a1f6861129ef088
+#
+# http://durdn.com/blog/2012/11/22/must-have-git-aliases-advanced-examples/
+#
