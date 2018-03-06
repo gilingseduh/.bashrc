@@ -26,6 +26,7 @@ alias gha='git hist --all'
 alias gpso='git push -u origin'
 alias gps='git push -u'
 alias gpl='git pull -u'
+alias gpla='git pull --all'
 
 #
 # references
