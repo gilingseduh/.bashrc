@@ -27,6 +27,7 @@ alias gpso='git push -u origin'
 alias gps='git push -u'
 alias gpl='git pull -u'
 alias gpla='git pull --all'
+alias gplab='git branch -r | grep -v '\''\->'\'' | while read remote; do git branch --track "${remote#origin/}" "$remote"; done && git fetch --all && git pull --all'
 
 #
 # references
