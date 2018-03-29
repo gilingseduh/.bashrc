@@ -28,6 +28,9 @@ alias gps='git push -u'
 alias gpl='git pull -u'
 alias gpla='git pull --all'
 alias gplab='git branch -r | grep -v '\''\->'\'' | while read remote; do git branch --track "${remote#origin/}" "$remote"; done && git fetch --all && git pull --all'
+# need to install git-open first:
+# https://github.com/paulirish/git-open
+alias gopen='git-open'
 
 #
 # references
