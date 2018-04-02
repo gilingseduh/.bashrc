@@ -25,7 +25,7 @@ alias gl='git log --pretty=format:'\''%h %ad | %s%d [%an]'\'' --graph --date=sho
 alias gha='git hist --all'
 alias gpso='git push -u origin'
 alias gps='git push -u'
-alias gpl='git pull -u'
+alias gpl='git pull'
 alias gpla='git pull --all'
 alias gplab='git branch -r | grep -v '\''\->'\'' | while read remote; do git branch --track "${remote#origin/}" "$remote"; done && git fetch --all && git pull --all'
 # to use git-open command, need to install git-open first:
