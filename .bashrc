@@ -11,6 +11,7 @@ alias h='history'
 # git alias
 alias got='git '
 alias get='git '
+alias gcl='git clone'
 alias gs='git status '
 alias ga='git add '
 alias gb='git branch '
