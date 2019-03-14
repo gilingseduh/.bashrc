@@ -33,11 +33,14 @@ alias gplab='git branch -r | grep -v '\''\->'\'' | while read remote; do git bra
 # https://github.com/paulirish/git-open
 alias gopen='git-open'
 alias gopenm='git-open origin master'
+# list all local branches. sorted descendingly by last commit date
+# reference: https://stackoverflow.com/questions/5188320/how-can-i-get-a-list-of-git-branches-ordered-by-most-recent-commit
+alias gbas='git for-each-ref --sort=committerdate refs/heads/ --format='\''%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'\'''
+
 
 #
-# references
+# alias references
 # 
 # https://gist.github.com/johnpolacek/69604a1f6861129ef088
-#
 # http://durdn.com/blog/2012/11/22/must-have-git-aliases-advanced-examples/
 #
